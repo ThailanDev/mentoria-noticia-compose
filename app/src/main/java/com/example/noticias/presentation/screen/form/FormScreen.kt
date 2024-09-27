@@ -1,4 +1,4 @@
-package com.example.noticias.presentation.screen_login
+package com.example.noticias.presentation.screen.form
 
 import android.util.Log
 import androidx.compose.foundation.layout.Column
@@ -17,7 +17,7 @@ import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 @Preview(showSystemUi = true)
-fun LoginScreen() {
+fun FormScreen() {
 
     var titulo by remember { mutableStateOf("") }
     var descricao by remember { mutableStateOf("") }
