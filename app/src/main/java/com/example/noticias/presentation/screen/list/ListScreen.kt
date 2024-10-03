@@ -15,7 +15,8 @@ fun ListScreen() {
         News(
             title = "Titulo ${new}",
             description = "Descricao ${new}",
-            message = "Mensagem ${new}"
+            message = "Mensagem ${new}",
+            false
         )
     }
 
